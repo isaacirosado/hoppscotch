@@ -1,6 +1,6 @@
 <template>
   <HoppSmartPlaceholder
-    :src="`/images/states/${colorMode.value}/upload_error.svg`"
+    :src="`/exploreapi/images/states/${colorMode.value}/upload_error.svg`"
     :alt="`${t('error.network_fail')}`"
     :heading="t('error.network_fail')"
   >

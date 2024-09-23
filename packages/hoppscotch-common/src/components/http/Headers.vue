@@ -222,7 +222,7 @@
 
       <HoppSmartPlaceholder
         v-if="workingHeaders.length === 0"
-        :src="`/images/states/${colorMode.value}/add_category.svg`"
+        :src="`/exploreapi/images/states/${colorMode.value}/add_category.svg`"
         :alt="`${t('empty.headers')}`"
         :text="t('empty.headers')"
       >

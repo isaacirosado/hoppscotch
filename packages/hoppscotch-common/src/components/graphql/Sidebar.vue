@@ -17,7 +17,7 @@
           subscriptionFields.length === 0 &&
           graphqlTypes.length === 0
         "
-        :src="`/images/states/${colorMode.value}/add_comment.svg`"
+        :src="`/exploreapi/images/states/${colorMode.value}/add_comment.svg`"
         :alt="`${t('empty.documentation')}`"
         :text="t('empty.documentation')"
       />
@@ -150,7 +150,7 @@
       </div>
       <HoppSmartPlaceholder
         v-else
-        :src="`/images/states/${colorMode.value}/blockchain.svg`"
+        :src="`/exploreapi/images/states/${colorMode.value}/blockchain.svg`"
         :alt="`${t('empty.schema')}`"
         :text="t('empty.schema')"
       >

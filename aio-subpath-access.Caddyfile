@@ -33,6 +33,11 @@
 		reverse_proxy localhost:8080
 	}
 
+	# Handle requests under `/exploreapi*` path
+	handle_path /exploreapi* {
+		reverse_proxy localhost:80
+	}
+
 	# Catch-all route for unknown paths, serves `selfhost-web` SPA
 	handle {
 		root * /site/selfhost-web

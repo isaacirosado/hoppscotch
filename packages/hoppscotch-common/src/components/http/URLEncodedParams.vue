@@ -151,7 +151,7 @@
       </draggable>
       <HoppSmartPlaceholder
         v-if="workingUrlEncodedParams.length === 0"
-        :src="`/images/states/${colorMode.value}/add_category.svg`"
+        :src="`/exploreapi/images/states/${colorMode.value}/add_category.svg`"
         :alt="`${t('empty.body')}`"
         :text="t('empty.body')"
       >

@@ -13,7 +13,7 @@
       </div>
       <HoppSmartPlaceholder
         v-if="!loading && myTeams.length === 0"
-        :src="`/images/states/${colorMode.value}/add_group.svg`"
+        :src="`/exploreapi/images/states/${colorMode.value}/add_group.svg`"
         :alt="`${t('empty.teams')}`"
         :text="`${t('empty.teams')}`"
       >

@@ -110,7 +110,7 @@
     <HttpRawBody v-else-if="body.contentType !== null" v-model="body" />
     <HoppSmartPlaceholder
       v-if="body.contentType == null"
-      :src="`/images/states/${colorMode.value}/upload_single_file.svg`"
+      :src="`/exploreapi/images/states/${colorMode.value}/upload_single_file.svg`"
       :alt="`${t('empty.body')}`"
       :text="t('empty.body')"
     >
